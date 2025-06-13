@@ -1,0 +1,13 @@
+name: a4-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - osmnx
+  - networkx
+  - folium
+  - jupyter
+  - pip
+  - pip:
+      - ortools
